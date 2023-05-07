@@ -1,0 +1,319 @@
+.header-container {
+    height: 200px;
+    background-color: beige;
+    position: relative;
+    font-family: 'Montserrat';
+    letter-spacing: 20px;
+    font-weight: 400;
+    font-size: 1rem;
+    background: linear-gradient(340deg, rgb(241 241 241) 50%, white 50%);
+}
+
+.v, .a{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #94ecbf;
+    font-family: 'Lily Script One';
+}
+
+hr{
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 3px;
+    width: 200px;
+   margin: auto;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   color: #4ee195;
+}
+
+.va{
+    font-size: 2rem;
+    font-weight: 100;
+    color: #94ecbf;
+    font-family: 'Lily Script One';
+    text-align: center;
+    font-style: italic;
+}
+
+.about-container{
+    margin: 70px 13% 50px;
+    text-align: center;
+}
+
+.about-text{
+    font-family: 'Montserrat';
+text-align: justify;
+word-spacing: 4px;
+letter-spacing: 0.1rem;
+line-height: 35px;
+color: rgb(100, 100, 100);
+}
+.vitali {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.altuchow {
+    display: none;
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}
+.front {
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 33.5%;
+}
+.end {
+    display: none;
+    position: absolute;
+    bottom: 10%;
+    left: 37.5%;
+}
+.header-text-container {
+    padding: 30px;
+    font-size: large;
+}
+.header-img-container {
+    text-align: center;
+    margin: auto;
+}
+
+.img{
+    width: 220px;
+    float: right;
+    margin-top: 8px;
+    margin-left: 6%;
+    margin-bottom: 1%;
+    border: solid;
+    border-width: 1.5px;
+    border-color: #94ecbf;
+    padding: 0px;
+}
+
+.navbar {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    letter-spacing: 10px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.nav-item{
+    margin: 0px 30px;
+}
+.navbar-toggler{
+border: none;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.skills{
+    border: solid;
+    border-width: 1.5px;
+    border-radius: 6px;
+    border-color: rgb(219, 219, 219);
+    margin: 20px 13% 50px;
+    padding: 3%;
+    font-family: 'Montserrat';
+text-align: justify;
+word-spacing: 7px;
+letter-spacing: 0.2rem;
+line-height: 30px;
+color: rgb(100, 100, 100);
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #94ecbf;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot-grey {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(241 241 241);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .card-img-top{
+    height: 203.27px;
+  }
+
+.portfolio-container{
+    display: flex;
+    margin: 20px 13% 90px;
+    gap: 5%;
+}
+
+#skills, #portfolio{
+    text-align: center;
+}
+
+
+
+.skills-heading, .portfolio-heading, .about-heading{
+    font-family: 'Montserrat';
+    word-spacing: 10px;
+    letter-spacing: 0.6rem;
+    line-height: 40px;
+    font-weight: 400;
+    color: rgb(43, 43, 43);
+    font-style: italic;
+}
+
+.about-heading{
+    letter-spacing: 0.2rem;
+    margin-bottom: 40px;
+    }
+
+.skills-heading{
+    font-size: 1.5rem;
+margin-bottom: 50px;
+margin-top: 70px;
+}
+
+.portfolio-heading{
+    
+    font-size: 1.5rem;
+margin-bottom: 50px;
+margin-top: 70px;
+}
+
+.card{
+    width: 50%;
+}
+
+.card-body{
+    text-align: left;
+}
+
+.card-title-container{
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(227, 227, 227);
+    color: rgb(43, 43, 43);
+}
+
+.btn-vocout:hover{
+    background-color: #94ecbf;
+    border-color: #94ecbf;
+}
+
+.btn-checklists:hover{
+    background-color: #fffc98;
+    border-color: #fffc98;
+    color: rgb(43, 43, 43);
+}
+
+#footer {
+    text-align: center;
+    background-color: rgb(241 241 241);
+    padding: 20px 0 20px;
+    color: rgb(100, 100, 100);
+}
+
+.social-icon {
+    margin: 30px 50px;
+    color: #94ecbf;
+    size: 200px;
+}
+
+.social-icon:hover {
+    color: #fff;
+}
+
+#footer p{
+    word-spacing: 7px;
+    margin: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .portfolio-container{
+        display: block;
+    }
+
+    .card{
+        width: 400px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .header-container {
+        height: 300px;
+  }
+
+  .vitali{
+    margin-top: -45px;
+  }
+
+  .skills, .about-container{
+    margin: 100px 8% 50px;
+}
+.skills, .about-text, .about-heading{
+    word-spacing: 4px;
+    letter-spacing: 0.1rem;
+}
+.img{
+    float: none;
+    width: 300px;
+    border: solid;
+    border-width: 1.5px;
+    border-color: #94ecbf;
+    padding: 0px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+}
+.card{
+    width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 475px) {
+    .skills, .about-container{
+        margin: 100px 7% 50px;
+    }
+    .skills, .about-text, .about-heading{
+        word-spacing: 2px;
+        letter-spacing: 0.05rem;
+    }
+    .img{
+        float: none;
+        width: 250px;
+        border: solid;
+        border-width: 1.5px;
+        border-color: #94ecbf;
+        padding: 0px;
+        margin-bottom: 40px;
+        margin-left: 0px;
+    }
+}

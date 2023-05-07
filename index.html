@@ -1,9 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>MySite</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Montserrat:wght@100;400;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Homepage</title>
   </head>
   <body>
-    <h1>MySite</h1>
+    <section id="header">
+      <div class="header-container">
+        <i class="vitali">
+          <span class="v">V</span>itali <span class="a">A</span>ltuchow
+        </i>
+        <nav
+          class="navbar navbar-light navbar-expand-md"
+          style="background: transparent"
+        >
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler ms-auto"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item ms-auto">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >story</a
+                  >
+                </li>
+                <li class="nav-item ms-auto">
+                  <a class="nav-link" href="#">skills</a>
+                </li>
+                <li class="nav-item ms-auto">
+                  <a class="nav-link" href="#">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section id="about">
+      <div class="about-container">
+        <h5 class="about-heading">
+          First of all, thank you for comming and welcome!
+        </h5>
+        <img class="img" src="images/premium3cut2.png" alt="" />
+        <div class="about-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi quis
+          hendrerit dolor magna eget est lorem ipsum dolor. Est lorem ipsum
+          dolor sit amet consectetur. Amet venenatis urna cursus eget nunc
+          scelerisque viverra mauris in. Leo urna molestie at elementum eu
+          facilisis sed. Imperdiet nulla malesuada pellentesque elit eget
+          gravida cum sociis. Felis bibendum ut tristique et egestas quis ipsum
+          suspendisse ultrices. Lacus vel facilisis volutpat est. Tellus
+          pellentesque eu tincidunt tortor aliquam nulla facilisi cras.
+          Facilisis leo vel fringilla est ullamcorper eget nulla facilisi.
+          Adipiscing bibendum est ultricies integer quis auctor elit sed
+          vulputate. Scelerisque varius morbi enim nunc faucibus a pellentesque
+          sit amet. Nisl purus in mollis nunc sed id semper risus.
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <h5 class="skills-heading">skills</h5>
+      <div class="skills row">
+        <table class="col-md">
+          <tr class="skill">
+            <td>HTML</td>
+            <td>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot-grey"></span>
+              <span class="dot-grey"></span>
+            </td>
+          </tr>
+          <tr class="skill">
+            <td>CSS</td>
+            <td>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot-grey"></span>
+              <span class="dot-grey"></span>
+              <span class="dot-grey"></span>
+            </td>
+          </tr>
+          <tr class="skill">
+            <td>Bootstrap</td>
+            <td>
+              <span class="dot"></span>
+              <span class="dot-grey"></span>
+              <span class="dot-grey"></span>
+              <span class="dot-grey"></span>
+              <span class="dot-grey"></span>
+            </td>
+          </tr>
+        </table>
+
+        <table class="col-md">
+          <tr class="skill">
+            <td>Javascript</td>
+            <td>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot-grey"></span>
+              <span class="dot-grey"></span>
+            </td>
+          </tr>
+          <tr class="skill">
+            <td>NodeJS</td>
+            <td>
+              <span class="dot"></span>
+              <span class="dot-grey"></span>
+              <span class="dot-grey"></span>
+              <span class="dot-grey"></span>
+              <span class="dot-grey"></span>
+            </td>
+          </tr>
+          <tr class="skill">
+            <td>react</td>
+            <td>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot-grey"></span>
+              <span class="dot-grey"></span>
+              <span class="dot-grey"></span>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section id="portfolio">
+      <h5 class="portfolio-heading">portfolio</h5>
+      <div class="portfolio-container">
+        <div class="card">
+          <img src="images/vocout.png" class="card-img-top" alt="vocout" />
+          <div class="card-body">
+            <div class="card-title-container">
+              <h5 class="card-title">vocout</h5>
+              <p>improve your english skills</p>
+            </div>
+            <ul>
+              <li>V 1.0.0</li>
+              <li>Built with Vanilla JavaScript</li>
+              <li>
+                Next Steps
+                <ul>
+                  <li>Database</li>
+                  <li>Responsive Design</li>
+                </ul>
+              </li>
+            </ul>
+            <div class="links">
+              <a href="#" class="btn btn-primary btn-vocout">GitHub</a>
+              <a href="#" class="btn btn-primary btn-vocout">Go to vocout</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="images/checklists.png"
+            class="card-img-top"
+            alt="shoppinglist"
+          />
+          <div class="card-body">
+            <div class="card-title-container">
+              <h5 class="card-title">checklists</h5>
+              <p>create and manage your TODO lists</p>
+            </div>
+            <ul>
+              <li>V 1.0.0</li>
+              <li>Built with React</li>
+              <li>
+                Next Steps
+                <ul>
+                  <li>Database</li>
+                  <li>Responsive Design</li>
+                </ul>
+              </li>
+            </ul>
+
+            <div class="links">
+              <a href="#" class="btn btn-primary btn-checklists">GitHub</a>
+              <a href="#" class="btn btn-primary btn-checklists"
+                >Go to checklists</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f fa-lg"></i>
+        <i class="social-icon fab fa-twitter fa-lg"></i>
+        <i class="social-icon fab fa-instagram fa-lg"></i>
+        <i class="social-icon fas fa-envelope fa-lg"></i>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
