@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script src="https://kit.fontawesome.com/a63c3c7087.js" crossorigin="anonymous"></script>
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/a63c3c7087.js"
+      crossorigin="anonymous"
+    ></script>
 
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,6 +19,7 @@
       crossorigin="anonymous"
     />
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,215 +28,237 @@
     />
 
     <link rel="stylesheet" href="css/styles.css" />
+
     <title>Vitali Altuchow</title>
   </head>
+
   <body>
-    <section id="header">
-      <div class="header-container">
-        <i class="vitali">
-          <span class="v">V</span>itali <span class="a">A</span>ltuchow
-        </i>
-        <nav
-          class="navbar navbar-light navbar-expand-md"
-          style="background: transparent"
+    <header>
+      <div class="header-name"><i>Vitali</i> <i>Altuchow</i></div>
+      <nav class="navbar navbar-light navbar-expand-md">
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <div class="container-fluid">
-            <button
-              class="navbar-toggler ms-auto"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item ms-auto">
-                  <a class="nav-link" aria-current="page" href="#about"
-                    >about</a
-                  >
-                </li>
-                <li class="nav-item ms-auto">
-                  <a class="nav-link" href="#skills">skills</a>
-                </li>
-                <li class="nav-item ms-auto">
-                  <a class="nav-link" href="#portfolio">portfolio</a>
-                </li>
-                <li class="nav-item ms-auto">
-                  <a class="nav-link" href="#footer">contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </section>
-    <section id="about">
-      <div class="about-container">
-        <h5 class="about-heading">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ms-auto">
+              <a class="nav-link" aria-current="page" href="#about">about</a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link" href="#skills">skills</a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link" href="#portfolio">portfolio</a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link" href="#footer">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h5 class="heading about-heading">
           First of all, thank you for visiting and welcome!
         </h5>
-        <img class="img" src="images/premium3cut2.png" alt="" />
+        <img class="about-img" src="images/pic.png" alt="no image found" />
         <div class="about-text">
-          Hey, my name is Vitali Altuchow. I am 29 years old and live in Aachen, a beautiful city in Germany. 
-          And I am a passionate programmer! That's why I started to study computer science after my job as a mechatronic. 
-          It was a good start which I am grateful for.
-          During a student job I discovered my passion for frontend development. 
-          I loved to use not only my programming skills but also my creativity. Unfortunately I was forced to quit my studies for private reasons 
-          and to work in my old job as a mechatronic again for the time being. 
-          It was a difficult time, but nevertheless I didn't stop programming in my spare time. I started to build this site to show you what I learned about frontend development so far. 
-          There is an overview of my skills and to demonstrate them I started to build some projects which you can find in the 'portfolio' section below.
-          I am grateful for your visit here. There is also a 'contact' section, so let's connect!
+          Hey, my name is Vitali Altuchow. I am 29 years old and live in Aachen,
+          a beautiful city in Germany. And I am a passionate programmer! That's
+          why I started to study computer science after my job as a mechatronic.
+          It was a good start which I am grateful for. During a student job I
+          discovered my passion for frontend development. I loved to use not
+          only my programming skills but also my creativity. Unfortunately I was
+          forced to quit my studies for private reasons and to work in my old
+          job as a mechatronic again for the time being. It was a difficult
+          time, but nevertheless I didn't stop programming in my spare time. I
+          started to build this site to show you what I learned about frontend
+          development so far. There is an overview of my skills and to
+          demonstrate them I started to build some projects which you can find
+          in the 'portfolio' section below. I am grateful for your visit here.
+          There is also a 'contact' section, so let's connect!
         </div>
-      </div>
-    </section>
-    <section id="skills">
-      <h5 class="skills-heading">skills</h5>
-      <div class="skills row">
-        <table class="col-md">
-          <tr class="skill">
-            <td>HTML</td>
-            <td>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot-grey"></span>
-              <span class="dot-grey"></span>
-            </td>
-          </tr>
-          <tr class="skill">
-            <td>CSS</td>
-            <td>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot-half-grey"></span>
-              <span class="dot-grey"></span>
-              <span class="dot-grey"></span>
-            </td>
-          </tr>
-          <tr class="skill">
-            <td>JavaScript</td>
-            <td>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot-half-grey"></span>
-              <span class="dot-grey"></span>
-              <span class="dot-grey"></span>
-            </td>
-          </tr>
-        </table>
+      </section>
 
-        <table class="col-md">
-          <tr class="skill">
-            <td>React</td>
-            <td>
-              <span class="dot"></span>
-              <span class="dot-half-grey"></span>
-              <span class="dot-grey"></span>
-              <span class="dot-grey"></span>
-              <span class="dot-grey"></span>
-            </td>
-          </tr>
-          <tr class="skill">
-            <td>NodeJS</td>
-            <td>
-              <span class="dot"></span>
-              <span class="dot-grey"></span>
-              <span class="dot-grey"></span>
-              <span class="dot-grey"></span>
-              <span class="dot-grey"></span>
-            </td>
-          </tr>
-          <tr class="skill">
-            <td>Git</td>
-            <td>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot-grey"></span>
-              <span class="dot-grey"></span>
-              <span class="dot-grey"></span>
-            </td>
-            
-          </tr>
-        </table>
-      </div>
-    </section>
-    <section id="portfolio">
-      <h5 class="portfolio-heading">portfolio</h5>
-      <div class="portfolio-container">
-        <div class="card">
-          <img src="images/vocout.png" class="card-img-top" alt="vocout" />
-          <div class="card-body">
-            <div class="card-title-container">
-              <h5>vocout</h5>
-              <p>a vocabulary trainer</p>
+      <section id="skills">
+        <h5 class="heading skills-heading">skills</h5>
+        <div class="skills row">
+          <table class="col-md">
+            <tr class="skill">
+              <td>HTML</td>
+              <td>
+                <span class="dot dot-green"></span>
+                <span class="dot dot-green"></span>
+                <span class="dot dot-green"></span>
+                <span class="dot dot-grey"></span>
+                <span class="dot dot-grey"></span>
+              </td>
+            </tr>
+            <tr class="skill">
+              <td>CSS</td>
+              <td>
+                <span class="dot dot-green"></span>
+                <span class="dot dot-green"></span>
+                <span class="dot dot-half-grey"></span>
+                <span class="dot dot-grey"></span>
+                <span class="dot dot-grey"></span>
+              </td>
+            </tr>
+            <tr class="skill">
+              <td>JavaScript</td>
+              <td>
+                <span class="dot dot-green"></span>
+                <span class="dot dot-green"></span>
+                <span class="dot dot-half-grey"></span>
+                <span class="dot dot-grey"></span>
+                <span class="dot dot-grey"></span>
+              </td>
+            </tr>
+          </table>
+
+          <table class="col-md">
+            <tr class="skill">
+              <td>React</td>
+              <td>
+                <span class="dot dot-green"></span>
+                <span class="dot dot-half-grey"></span>
+                <span class="dot dot-grey"></span>
+                <span class="dot dot-grey"></span>
+                <span class="dot dot-grey"></span>
+              </td>
+            </tr>
+            <tr class="skill">
+              <td>NodeJS</td>
+              <td>
+                <span class="dot dot-green"></span>
+                <span class="dot dot-grey"></span>
+                <span class="dot dot-grey"></span>
+                <span class="dot dot-grey"></span>
+                <span class="dot dot-grey"></span>
+              </td>
+            </tr>
+            <tr class="skill">
+              <td>Git</td>
+              <td>
+                <span class="dot dot-green"></span>
+                <span class="dot dot-green"></span>
+                <span class="dot dot-grey"></span>
+                <span class="dot dot-grey"></span>
+                <span class="dot dot-grey"></span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <h5 class="heading portfolio-heading">portfolio</h5>
+
+        <div class="portfolio-container">
+          <div class="card">
+            <img class="card-img-top" src="images/vocout.png" alt="vocout" />
+            <div class="card-body">
+              <div class="card-title-container">
+                <h5>vocout</h5>
+                <p>a vocabulary trainer</p>
+              </div>
+              <ul>
+                <li>V 0.5.0 - Alpha Version</li>
+                <li>built with Vanilla JavaScript</li>
+                <li>
+                  next steps
+                  <ul>
+                    <li>improve responsive design</li>
+                    <li>add 100 vocabulary pairs</li>
+                    <li>enable switching between de-en and en-de</li>
+                    <li>connection to database</li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="portfolio-button-container">
+                <a
+                  class="btn btn-primary"
+                  href="https://github.com/VitaliAltuchow/vocout"
+                  target="_blank"
+                  >GitHub</a
+                >
+                <a
+                  class="btn btn-primary"
+                  href="https://vitalialtuchow.github.io/vocout/"
+                  target="_blank"
+                  >Visit vocout</a
+                >
+              </div>
             </div>
-            <ul>
-              <li>V 0.5.0 - Alpha Version</li>
-              <li>built with Vanilla JavaScript</li>
-              <li>
-                next steps
-                <ul>
-                  <li>improve responsive design</li>
-                  <li>add 100 vocabulary pairs</li>
-                  <li>enable switching between de-en and en-de</li>
-                  <li>connection to database</li>
-                </ul>
-              </li>
-            </ul>
-            <div class="links">
-              <a href="https://github.com/VitaliAltuchow/vocout" target="_blank" class="btn btn-primary"
-                >GitHub</a
-              >
-              <a href="https://vitalialtuchow.github.io/vocout/" class="btn btn-primary" target="_blank">Visit vocout</a>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/checklists.png"
+              alt="checklists"
+            />
+            <div class="card-body">
+              <div class="card-title-container">
+                <h5>checklists</h5>
+                <p>create and manage your TODO lists</p>
+              </div>
+              <ul>
+                <li>V 0.5.0 - Alpha Version</li>
+                <li>built with React</li>
+                <li>
+                  next steps
+                  <ul>
+                    <li>add 'about' section</li>
+                    <li>enable editing list-properties</li>
+                    <li>improve responsive design</li>
+                    <li>add registration and login process</li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="portfolio-button-container">
+                <a
+                  class="btn btn-primary"
+                  href="https://github.com/VitaliAltuchow/checklists"
+                  target="_blank"
+                  >GitHub</a
+                >
+                <a
+                  class="btn btn-primary"
+                  href="https://vitalialtuchow.github.io/checklists/"
+                  target="_blank"
+                  >Visit checklists</a
+                >
+              </div>
             </div>
           </div>
         </div>
-        <div class="card">
-          <img
-            src="images/checklists.png"
-            class="card-img-top"
-            alt="shoppinglist"
-          />
-          <div class="card-body">
-            <div class="card-title-container">
-              <h5>checklists</h5>
-              <p>create and manage your TODO lists</p>
-            </div>
-            <ul>
-              <li>V 0.5.0 - Alpha Version</li>
-              <li>built with React</li>
-              <li>
-                next steps
-                <ul>
-                  <li>add 'about' section</li>
-                  <li>improve responsive design</li>
-                  <li>add registration and login process</li>
-                  <li>connection to database</li>
-                </ul>
-              </li>
-            </ul>
+      </section>
+    </main>
 
-            <div class="links">
-              <a href="https://github.com/VitaliAltuchow/checklists" target="_blank" class="btn btn-primary"
-                >GitHub</a
-              >
-              <a href="https://vitalialtuchow.github.io/checklists/" class="btn btn-primary" target="_blank"
-                >Visit checklists</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="white-section" id="footer">
-      <div class="container-fluid">
-        <a href="https://www.linkedin.com/in/vitali-altuchow-67b0b923a/" target="_blank"><i class="social-icon fab fa-linkedin-in fa-3x"></i></a>
-        <a href="https://github.com/VitaliAltuchow" target="_blank"><i class="social-icon fab fa-github fa-3x"></i></a>
+    <footer id="footer">
+      <a
+        href="https://www.linkedin.com/in/vitali-altuchow-67b0b923a/"
+        target="_blank"
+      >
+        <i class="social-icon fab fa-linkedin-in fa-3x"></i>
+      </a>
+      <a href="https://github.com/VitaliAltuchow" target="_blank">
+        <i class="social-icon fab fa-github fa-3x"></i>
+      </a>
     </footer>
+
+    <!-- Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
