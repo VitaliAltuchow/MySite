@@ -124,7 +124,7 @@ header {
 /* Skills Section */
 
 .skills {
-    margin: 20px 13% 50px;
+    margin: 20px 13% 70px;
 
     border: solid;
     border-width: 1.5px;
@@ -268,7 +268,7 @@ td {
     }
 
     #about, .skills {
-        margin: 50px 8% 50px;
+        margin: 50px 8% 70px;
     }
 
     .about-heading, .about-text, .skills {
